@@ -1,0 +1,132 @@
+@media (max-width: 1100px) {
+
+  .container {
+  width: 900px;
+  border-radius: 30px;
+  }
+
+  .hero_img img{
+    width: 400px;
+    border-radius: 20px;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .container {
+  width: 800px;
+  border-radius: 30px;
+  }
+
+  .hero_img img{
+    width: 300px;
+    border-radius: 20px;
+  }
+
+  .inner_login {
+  gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 700px;
+    border-radius: 30px;
+    }
+  
+    .hero_img img{
+      display: none;
+    }
+}
+
+@media (max-width: 650px) {
+
+  .hero_img img{
+  display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    border-radius: 30px;
+    }
+
+  .username, .password {
+    width: 300px;
+  }
+
+  .google img {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    }
+    
+    .facebook img {
+      position: absolute;
+      bottom: 25px;
+      left: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 350px;
+    border-radius: 30px;
+    }
+
+  .username, .password {
+    width: 260px;
+  }
+
+  .google img {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    }
+    
+    .facebook img {
+      position: absolute;
+      bottom: 25px;
+      left: 40px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .welcome_info {
+      font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .inner_login {
+      padding: 20px;
+    }
+
+    .username, .password {
+      width: 200px;
+    }
+  
+    .google img {
+      position: absolute;
+      top: 5px;
+      left: 25px;
+      }
+      
+      .facebook img {
+        position: absolute;
+        bottom: 25px;
+        left: 18px;
+      }
+
+      .welcome_info {
+        font-size: 12px;
+      }
+
+      .google, .facebook, .next_btn {
+        width: 230px;
+      }
+}
